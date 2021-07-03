@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Eid Mubarak</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  
+  <style>
+  
+  *{
+  
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+  
+  }
+  
+  body{
+  
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg,#0A9B4A,#46B84A);;
+  
+  }
+  
+  #container{
+  
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  }
+  
+  #container div{
+  
+  height: 100%;
+  width: 50%;
+  
+  }
+  
+  #left{
+  
+  background: #fff;
+  padding: 80px 50px;
+  text-align: center;
+  
+  }
+  
+  #left img{
+  
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px -10px #000;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  
+  }
+  
+  #left img:hover{
+  
+  transform: translateY(-20px);
+  
+  }
+  
+  #left h3{
+  
+  color: #222;
+  font-size: 50px;
+  
+  }
+  
+  #left p{
+  
+  color: #555;
+  font-size: 18px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  
+  }
+  
+  #links{
+  
+  display: flex;
+  alig -items: center;
+  justify-content: space-between;
+  
+  }
+  
+  #links a{
+  
+  text-decoration: none;
+  color: #444;
+  
+  }
+  
+  #links a i{
+  
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid  #444;
+  transition: all 0.5s;
+  
+  }
+  
+  #links a:hover i{
+  
+  background: #444;
+  color: #fff;
+  
+  }
+  
+  #right{
+  
+  background: linear-gradient(to left,#0A9B4A,#46B84A);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  #right p{
+  
+  font-size: 70px;
+  color: #fff;
+  font-family: Harabara;
+  text-align: center;
+  
+  }
+  
+  @font-face{
+  
+  font-family: Harabara;
+  src: url(HarabaraMaisDemo.otf);
+  
+  }
+  
+  </style>
+  
+</head>
+<body>
+
+  <div id="container">
+        
+    <div id="left">
+    
+      <img src="FB_IMG_16253152566186450.jpg"/>
+      <h3>Jisan Ahmed</h3>
+      <p>Graphics Designer & Web Designer</p>
+      
+      <p id="links">
+      
+        <a href="https://www.facebook.com/sakawoat.kazi.42"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.whatsapp.com/sakawoat.kazi.42"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.skype.com/sakawoat.kazi.42"><i class="fab fa-skype"></i></a>
+        <a href="https://www.instagram.com/sakawoat.kazi.42"><i class="fab fa-instagram"></i></a>
+      
+      </p>
+    
+    </div>
+    
+    <div id="right">
+    
+      <p>Eid<br/>Mubarak</p>
+    
+    </div>
+        
+  </div>
+    
+</body>
+</html>
